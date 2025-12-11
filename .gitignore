@@ -1,0 +1,111 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+.packages
+pubspec.lock
+
+# Android generated
+/android/build/
+/android/.gradle/
+/android/app/build/
+/android/local.properties
+/android/key.properties
+/android/*.iml
+/android/app/*.iml
+/android/gradle/
+/android/gradlew
+/android/gradlew.bat
+
+# iOS generated
+/ios/build/
+/ios/.symlinks/
+/ios/Pods/
+/ios/Podfile.lock
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app.zip
+/ios/Flutter/flutter_assets/
+/ios/ServiceDefinitions.json
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS generated
+/macos/build/
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/macos/Flutter/ephemeral/
+
+# Windows generated
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugin_registrant.h
+/windows/flutter/generated_plugins.cmake
+
+# Linux generated
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugin_registrant.h
+/linux/flutter/generated_plugins.cmake
+
+# Web generated (keep only index.html and manifest.json)
+/web/flutter_service_worker.js
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Environment files
+.env
+.env
+*.env
+
+# Firebase web config (contains API keys)
+web/firebase-config.js
+
+# Secrets (never commit)
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Test and coverage
+coverage/
+.test_coverage/
+*.lcov
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
